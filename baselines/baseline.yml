@@ -1,0 +1,10 @@
+set:
+  lr: 0.001
+  unseen_task: unseen
+  dataset: SAbDab
+  max_antibody_len: 110
+  max_antigen_len: 800
+  CKSAAP: False
+  ab_model: ablang
+  model_name: DeepAAI
+
