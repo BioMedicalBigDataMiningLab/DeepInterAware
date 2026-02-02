@@ -20,7 +20,7 @@ result:
 set:
   ab_model: ablang
   alpha: 0.4
-  dataset: HIV
+  dataset: AVIDa_hIL6
   device: 0
   model_name: DeepInterAware
   phy: false
