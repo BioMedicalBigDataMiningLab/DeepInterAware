@@ -4,10 +4,11 @@
 
  In this paper, we propose **DeepInterAware** (deep interaction interface-aware network), a framework dynamically incorporating interaction interface information directly learned from sequence data, along with the inherent specificity information of the sequences. Relying solely on sequence data, it allows for a more profound insight into the underlying mechanisms of antigen-antibody interactions, offering the capability to predict binding or neutralization,identify potential binding sites and predict binding free energy changes upon mutations. 
 
-The source code previously hosted at https://github.com/xyh-123/DeepInterAware is no longer maintained.
+<span style="color:red">The source code previously hosted at https://github.com/xyh-123/DeepInterAware is no longer maintained.
 We have migrated the codebase to this page and updated it in February 2026 to ensure completeness and reproducibility. 
+</span>
 
-![Our pipeline](framework.png)
+![Our pipeline](figs/framework.png)
 
 ## Table of contents
 
@@ -185,7 +186,7 @@ python usage.py --task binding_site --pair_file ./data/example/binding_site_pair
 
 ### Predict Binding Free Energy Changes
 
-![affinity_changes](affinity_changes.png)
+![affinity_changes](figs/affinity_changes.png)
 
 + The residue mutations of antigen and antibody sequences can significantly alter the AAI. To thoroughly evaluate the performance of DeepInterAware in identifying the efficacy of Ag-Ab mutants, we adopt Ag-Ab complexes and mutants as well as experimentally determined changes in binding free energies:
 
