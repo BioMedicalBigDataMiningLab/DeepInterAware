@@ -4,7 +4,7 @@
 
  In this paper, we propose **DeepInterAware** (deep interaction interface-aware network), a framework dynamically incorporating interaction interface information directly learned from sequence data, along with the inherent specificity information of the sequences. Relying solely on sequence data, it allows for a more profound insight into the underlying mechanisms of antigen-antibody interactions, offering the capability to predict binding or neutralization,identify potential binding sites and predict binding free energy changes upon mutations. 
 
-<span style="color:red">The source code previously hosted at https://github.com/xyh-123/DeepInterAware is no longer maintained.
+⚠️ <span style="color:red">The source code previously hosted at https://github.com/xyh-123/DeepInterAware is no longer maintained.
 We have migrated the codebase to this page and updated it in February 2026 to ensure completeness and reproducibility. 
 </span>
 
