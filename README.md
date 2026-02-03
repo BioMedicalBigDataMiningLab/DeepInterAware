@@ -7,7 +7,7 @@
 The source code previously hosted at https://github.com/xyh-123/DeepInterAware is no longer maintained.
 We have migrated the codebase to this page and updated it in February 2026 to ensure completeness and reproducibility. 
 
-![Our pipeline](figs/framework.png)
+![Our pipeline](framework.png)
 
 ## Table of contents
 
@@ -185,7 +185,7 @@ python usage.py --task binding_site --pair_file ./data/example/binding_site_pair
 
 ### Predict Binding Free Energy Changes
 
-![affinity_changes](figs/affinity_changes.png)
+![affinity_changes](affinity_changes.png)
 
 + The residue mutations of antigen and antibody sequences can significantly alter the AAI. To thoroughly evaluate the performance of DeepInterAware in identifying the efficacy of Ag-Ab mutants, we adopt Ag-Ab complexes and mutants as well as experimentally determined changes in binding free energies:
 
